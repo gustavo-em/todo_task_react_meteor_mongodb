@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Roboto+Condensed&display=swap');
+body, * {
+  padding: 10px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+
+.task_form {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  justify-content: center;
+  align-items:stretch;
+
+}
+
+.task_form button{
+  padding: 15px;
+  background-color: #F2E638;
+  border: none;
+  border-radius: 10px;
+  margin: 10px;
+  color: rgb(37, 37, 32);
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  box-shadow: 0.2px 0.2px 10px rgba(29, 28, 2, 0.246);
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+
+.task_form input {
+  border: none;
+  border-bottom: solid 2px #BFBFBF;
+  padding: 10px;
+  
+ 
+}
+
+.task_form input:focus{
+  border: none;
+  border-bottom: solid 4px #F2E638; 
+  box-shadow: none;
+  outline: none;
+}
+
